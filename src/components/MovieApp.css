@@ -152,14 +152,13 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Media Queries for Responsiveness */
 
 /* Tablets (768px and below) */
 @media (max-width: 768px) {
     .movie-wrapper {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
-        padding: 20px;
+        padding: 50px 50px;
     }
 
     h1 {
@@ -186,8 +185,7 @@ h1 {
 @media (max-width: 480px) {
     .movie-wrapper {
         grid-template-columns: 1fr;
-        gap: 10px;
-        padding: 10px;
+        padding: 50px 50px;
     }
 
     h1 {
